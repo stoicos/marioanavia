@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Mario Anavia</title>
+</head>
+<body>
+  <!-- ===============HEADER============== -->
+  <header id="header">
+    <nav class="navbar">
+    <div>
+    <h1><a href="#">Mario Anavia</a></h1>
+    </div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sesiones">Sesiones</a></li>
+          <li class="nav-contacto nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+    <div class="menu-btn">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    </nav>
+  </header>
+  <main>
+
+    <!-- ===============HOME============== -->
+
+    <div class="home-container">
+      <div class="home">
+        <div class="home-title">
+          <div>
+            <img src="img/perfil.png" class="perfil" alt="">
+          </div>
+          <div class="home-content">
+            <h2>Licenciado en Psicología</h2>
+            <p class="secondary">Desarrollo personal y profesional</p>
+          <blockquote cite="https://es.wikipedia.org/wiki/Sigmund_Freud">
+            <p>
+              "Uno es dueño de lo que calla y esclavo de lo que habla"
+            </p>
+            <div class="autor">
+              Sigmund Freud
+            </div>
+          </blockquote>
+          <a href="#contacto">Contactar</a>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  
+    <!-- ==================== SERVICIOS ================== -->
+
+    <div class="servicios-container" id="servicios">
+      <h2>Servicios</h2>
+      <div class="servicios">
+        <div class="servicio">
+          <img src="img/icon-edades.png" alt="mosaico realista">
+          <p>Todas las edades</p>
+        </div>
+        <div class="servicio">
+          <img src="img/icon-familia.png" alt="mosaico personalizado">
+          <p>Terapia familiar</p>
+        </div>
+        <div class="servicio">
+          <img src="img/icon-parejas.png" alt="mosaico patrón">
+          <p>Terapia de pareja</p>
+        </div>
+        <div class="servicio">
+          <img src="img/icon-discapacidad.png" alt="mosaico cartel">
+          <p>Abordaje de personas con discapacidad</p>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- ===============Datos============== -->
+
+    <div class="datos-container" id="sesiones">
+        <h2>Modalidades</h2>
+        <div class="card-container">
+            <div class="card"> <img src="img/icon-presencial.png" alt=""> <p><b>Presencial</b></p><p> Dirección Carlos Diehl 1116 descripción de como sería una sesión Presencial</p></div>
+            <div class="card"> <img src="img/icon-web.png" alt=""><p><b>Virtual</b></p><p> Por zoom descripción de como sería una sesión por zoom virtual</p></div>
+        </div>
+        <h2 style="margin-top: 4rem;">Ubicación</h2>
+        <div class="mapa"><img src="img/ubicacion.PNG" alt="mapa del consultorio médico"></div>
+        <h2 style="margin-top: 4rem;">El consultorio</h2>
+        <section class="carousel-container" aria-label="Newest Photos">
+          <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+            <ul data-slides>
+              <li class="slide" data-active>
+                <img src="./img/consultorio01.jpg" alt="Image #1">
+              </li>
+              <li class="slide">
+                <img src="./img/consultorio02.jpg" alt="Image #2">
+              </li>
+              <li class="slide">
+                <img src="./img/consultorio03.jpg" alt="Image #3">
+              </li>
+              <li class="slide">
+                <img src="./img/consultorio04.jpg" alt="Image #3">
+              </li>
+            </ul>
+          </div>
+        </section>
+    </div>
+
+  <!-- ===============FORM============== -->
+    
+  <div class="contacto-container" id="contacto">
+
+    <div class="contacto">
+      <h2>Tengamos una charla</h2>
+      <p>15 4078-6108</p>
+      <p>marioanavia@hotmail.com</p>
+      <p>Longchamps, Zona sur</p>
+      <p>Buenos Aires</p>
+    </div>
+
+    <form>
+      <fieldset>
+
+        <label for="nombreyapellido">Nombre y Apellido</label>
+            <input type="text" required />
+        <label for="email">Dirección de correo</label>
+            <input type="email" required />
+        <label for="numero">Número de teléfono</label>
+            <input type="text" required />
+        <label for="texto">Mensaje</label>
+            <textarea name="" id="" cols="30" rows="10" required></textarea>
+        <button type="submit" class="submit" >Enviar</button>
+      </fieldset>
+
+
+
+
+
+    </form>
+
+
+  </div>
+</main>
+<footer>
+    <p>® Marcelo Anavia</p>
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+</html>
