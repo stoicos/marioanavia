@@ -158,13 +158,13 @@ nav li a{
     .nav-menu.active {
         left: 0;
     }
-
+   
 }
 
 /* Home */
 
 .perfil {
-    border-radius: 100% 100% 0 0;
+    border-radius: 100%;
     
 }
 
@@ -174,9 +174,9 @@ nav li a{
     height: auto;
 }
 .home{
-    padding: 8em 0 0 0;
+    padding: 8em 0 2rem 0;
     text-align: center;
-
+    
 }
 
 .home-content p{
@@ -213,8 +213,8 @@ nav li a{
 }
 .home img{
     width: 300px;
-    margin: 3rem 0 0 0;
-    margin-bottom: -4px;
+    margin: 0;
+    margin-bottom: 2rem;
 }
 .divider{
     position: relative;
@@ -566,7 +566,7 @@ footer{
     }
     .home{
         text-align: left;
-    
+       
     }
     .home a{
         text-align: center;
@@ -590,5 +590,12 @@ footer{
       
       .carousel-button.next {
         right: -5rem;
+      }
+      .perfil {
+        border-radius: 100% 100% 0 0;
+      }
+      .home img {
+        margin-bottom: -4px;
+
       }
 }
