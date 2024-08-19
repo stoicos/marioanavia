@@ -518,7 +518,7 @@ footer{
 
 @media screen and (min-width:520px){
     form{
-        padding: 4.3rem 0 4.3rem 3rem;
+        padding: 4.3rem 0 4.3rem 0rem;
     }
 
 }
@@ -544,7 +544,7 @@ footer{
         margin: 0 3rem;
     }
     .home-title h2{
-        font-size: 4rem;
+        font-size: 3.6rem;
     }
     .home-title p{
         font-size: 1.5rem;
